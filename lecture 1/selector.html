@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>selector</title>
+	<style>
+		input[name=name]{
+			background: blue;
+			color:white;
+		}
+		input[placeholder=password]{
+			background:red;
+		}
+		ul > li{
+			color: red;
+		}
+	</style>
+</head>
+	<body>
+		<!-- dấu > -->
+		<ul>
+			<li>mau do</li>
+			<li>mau do</li>
+			<ol>
+				<li>mau den</li>
+				<li>mau den </li>
+			</ol>
+		</ul>
+		<!-- ket thuc -->
+		<!-- selector theo thuoc tinh -->
+
+		<form action="">
+			<input type="text" name="name" placeholder="Username"> <br>
+			<input type="password" name="password" placeholder="password"><br>
+			<button>submit</button>
+		</form>
+		<!-- end -->
+	</body>
+</html>
