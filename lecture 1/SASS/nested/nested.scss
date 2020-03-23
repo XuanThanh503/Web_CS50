@@ -1,0 +1,16 @@
+$color:white;
+.parents{
+	background: black;
+	.child1{
+		background:green;
+		padding: 20px;
+		color:$color;
+		width:200px;
+	}
+	.child2{
+		background:blue;
+		padding:20px;
+		color:$color;
+		width:auto;
+	}
+}

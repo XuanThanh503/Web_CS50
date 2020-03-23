@@ -1,0 +1,11 @@
+.box1, .box2 {
+  width: 200px;
+  height: 200px;
+  background: black;
+  color: white;
+  line-height: 200px;
+  border-radius: 20px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=elseIf.css.map */

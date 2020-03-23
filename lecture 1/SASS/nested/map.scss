@@ -1,0 +1,19 @@
+%oke{
+	height:30px;
+	line-height:30px;
+	background:red;
+	margin:10px;
+	text-align:center;
+}
+$sizes:(
+	30:30px,
+	40:40px,
+	60:60px
+);
+
+@each $key,$value in $sizes{
+	.box-#{$key}{
+		width: $value * 5;
+		@extend %oke;
+	}
+}

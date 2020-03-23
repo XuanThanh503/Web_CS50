@@ -1,0 +1,16 @@
+$color:red;
+%kaka{
+	height:30px;
+	background:$color;
+	text-align:center;
+	line-height:30px;
+	border-radius:5px;
+	color:yellow;
+}
+$files:20, 40, 100;
+@each $file in $files{
+	.box-#{$file} {
+		width: $file * 5px;
+		@extend %kaka;
+	}
+}

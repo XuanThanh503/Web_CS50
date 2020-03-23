@@ -1,0 +1,21 @@
+.box-60, .box-40, .box-30 {
+  height: 30px;
+  line-height: 30px;
+  background: red;
+  margin: 10px;
+  text-align: center;
+}
+
+.box-30 {
+  width: 150px;
+}
+
+.box-40 {
+  width: 200px;
+}
+
+.box-60 {
+  width: 300px;
+}
+
+/*# sourceMappingURL=map.css.map */

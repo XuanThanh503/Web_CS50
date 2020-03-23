@@ -1,0 +1,19 @@
+@mixin box($bg, $color, $w, $h, $bdr, $circle: false){
+	width:$w;
+	height:$h;
+	background:$bg;
+	color:$color;
+	line-height:$h;
+	border-radius:$bdr;
+	@if $circle == true{
+		border-radius: 50%;
+	}@else{
+		border-radius: $bdr;
+	}
+}
+.box1{
+	@include box(black, white, 200px, 200px, 20px, true);
+}
+.box2{
+	@extend .box1;
+}

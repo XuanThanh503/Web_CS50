@@ -1,0 +1,17 @@
+.parents {
+  background: black;
+}
+.parents .child1 {
+  background: green;
+  padding: 20px;
+  color: white;
+  width: 200px;
+}
+.parents .child2 {
+  background: blue;
+  padding: 20px;
+  color: white;
+  width: auto;
+}
+
+/*# sourceMappingURL=nested.css.map */

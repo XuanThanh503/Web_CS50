@@ -1,0 +1,7 @@
+$i: 1;
+@while $i < 4 {
+	.container:nth-child(#{$i}){
+		opacity: $i * 0.3;
+	}
+	$i: $i + 1;
+}

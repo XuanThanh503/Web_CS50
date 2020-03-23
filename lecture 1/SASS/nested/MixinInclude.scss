@@ -1,0 +1,15 @@
+$backgr1:yellow;
+$backgr2:red;
+@mixin box ($width, $height, $bgr, $border){
+	width:$width;
+	height:$height;
+	background:$bgr;
+	border:$border;
+}
+.box1{
+	@include box(200px,300px,$backgr1,1px solid black);
+
+}
+.box2{
+	@include box(200px,200px,$backgr2,2px dashed yellow);
+}

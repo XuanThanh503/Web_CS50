@@ -1,0 +1,18 @@
+.box{
+	min-height:200px;
+	min-width:150px;
+	background:#888;
+	color:blue;
+	&-text{
+		font:{
+			family: "Arial";
+			size:20px;
+		}
+	}
+}
+&:hover &-text{
+	
+	padding:20px;
+	background:black;
+	color:white;
+}

@@ -1,0 +1,17 @@
+$list: 1, 2, 3, 4, 5;
+$list1: append($list,6);
+@debug $list1;
+@each $i in $list{
+	@debug  $i;
+}
+@for $a from 1 to 6{
+	$k:nth($list,$a);
+	@debug $k;
+}
+$new-item: set-nth($list, 1 , 4px);
+@debug $new-item;
+$length1: length($list);
+@for $k from 1 through $length1{
+	$giaTri: nth($list,$k);
+	@debug $giaTri;
+}
